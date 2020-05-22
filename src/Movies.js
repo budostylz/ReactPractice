@@ -12,24 +12,6 @@ class Movies extends Component {
   render(){
     
 
-
-
- this.props.profiles.map((profile) => {
-    let user = this.props.users[profile.id].name;
-    let movie = this.props.movies[profile.favoriteMovieID].name;
-
-   //`${userName}\'s favorite movie is "${favMovieName}."`
-    //console.log(`${user}\'s favorite movie is "${movie}."` );
-    
-
-
-
-  })
-    
- 
-
-
-    
     return(
       
     	<ol>
