@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "exercise2",
+=======
+  "name": "author-likes-movie",
+>>>>>>> dcd8cb56d0aa5a1608fd0afa1d58ad02e0c34ab2
   "version": "0.1.0",
   "private": true,
   "dependencies": {

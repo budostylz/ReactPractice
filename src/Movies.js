@@ -11,6 +11,7 @@ import React, { Component } from 'react';
 class Movies extends Component {
   render(){
     
+<<<<<<< HEAD
     /* models
     console.log('profiles', this.props.profiles)
     console.log('users', this.props.users)
@@ -58,11 +59,41 @@ class Movies extends Component {
 
 
         	})
+=======
+
+    return(
+      
+    	<ol>
+      
+        {
+          
+          this.props.profiles.map((profile) => {
+          let user = this.props.users[profile.id].name;
+          let movie = this.props.movies[profile.favoriteMovieID].name;
+
+          //`${userName}\'s favorite movie is "${favMovieName}."`
+          //console.log(`${user}\'s favorite movie is "${movie}."` );
+      
+      		return(
+              <li key={profile.id}> {`${user}\'s favorite movie is "${movie}."`} </li>
+            
+            )
+      		
+
+        })
+>>>>>>> dcd8cb56d0aa5a1608fd0afa1d58ad02e0c34ab2
 
 
         }
 
+<<<<<<< HEAD
         </div>);
+=======
+        </ol>
+    
+    
+    );
+>>>>>>> dcd8cb56d0aa5a1608fd0afa1d58ad02e0c34ab2
 
     
   }
