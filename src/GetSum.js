@@ -1,12 +1,12 @@
 import React from 'react'
 
+
 const GetSum = props => {
 
-  	//props.init()
-  	console.log(props);
+  	//console.log('GetSumProps', props)
 	return(<p> 
            
-           {props.a} + {props.b} + {props.c} = {props.init()} 
+           {props.a} + {props.b} + {props.c} = {props.d}
            
     </p>);
        

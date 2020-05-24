@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import GetSum from './GetSum'
+import GetAnswer from './GetAnswer'
 
 /*const value1 = Math.floor(Math.random() * 100);
 const value2 = Math.floor(Math.random() * 100);
@@ -12,31 +12,61 @@ const numCorrect = 0;*/
 
 class App extends Component {
   
-  state = {    
-    value1 : Math.floor(Math.random() * 100),
-    value2 : Math.floor(Math.random() * 100),
-    value3:  Math.floor(Math.random() * 100),
-    proposedAnswer: 0,   
-    numQuestions: 0,
-    numCorrect: 0
+ constructor(props){//mount state
+    super(props);
+    const valArr = this.game();
+   
+    this.state = {    
+      value1 : valArr[0],
+      value2 : valArr[1],
+      value3:  valArr[2],
+      proposedAnswer: valArr[3], 
+      numQuestions: valArr[4],
+      numCorrect: valArr[5]
+  	}
+    
+    //console.log('valArr', valArr)
+    
+    
   }
-
- init = () => {
-	this.setState((currentState) => {
-    // Important: read `state` instead of `this.state` when updating.
-    
-      proposedAnswer: currentState.proposedAnswer = Math.floor(Math.random() * 3) 
-      + currentState.value1 + currentState.value2 + currentState.value3
-    
-  });
-   
-   
- }
   
+  game = () => {
+    const value1 = Math.floor(Math.random() * 100);
+    const value2 = Math.floor(Math.random() * 100);
+    const value3 = Math.floor(Math.random() * 100);
+    const proposedAnswer = Math.floor(Math.random() * 3) + (value1 + value2 + value3);
+    const numQuestions = 0;
+    const numCorrect = 0;
+    return [value1, value2, value3, proposedAnswer, numQuestions , numCorrect];
+ }
+
+ updateState = newValuesArr => {
+   this.setState(currentState => ({
+   		value1: newValuesArr[0],
+     	value2: newValuesArr[1],
+     	value3: newValuesArr[2],
+     	proposedAnswer: newValuesArr[3]
+
+   }));
+
+ };
+
+getAnswer = answer => {
+  
+  console.log('answer', answer)
+  
+  if(answer){
+    this.setState(currentState => ({
+    	numCorrect: currentState.numCorrect + 1
+    })) 
+  }
+  
+  this.setState(currentState => ({
+  	numQuestions: currentState.numQuestions + 1
+  })) 
+}
 
 
-
- 
   render() {
     
   
@@ -49,25 +79,19 @@ class App extends Component {
         </header>
         <div className="game">
           <h2>Mental Math</h2>
-          <div className="equation">
-    	
-    		<GetSum 
-    			a={this.state.value1}
-				b={this.state.value2}
-				c={this.state.value3}
-				d={this.state.proposedAnswer}
-				numQuestions={this.state.numQuestions}
-				numCorrect={this.state.numCorrect}
-				init ={this.init}
-    
+    	  <GetAnswer 
+    		state = {this.state}
+    		updateState={this.updateState}
+    		a={this.state.value1}
+			b={this.state.value2}
+			c={this.state.value3}
+			d={this.state.proposedAnswer}
+			numQuestions={this.state.numQuestions}
+			numCorrect={this.state.numCorrect}
+			answer = {this.getAnswer}
+			game = {this.game}
     		/>
           
-          </div>
-          <button>True</button>
-          <button>False</button>
-          <p className="text">
-            Your Score: 
-          </p>
         </div>
       </div>
     );
