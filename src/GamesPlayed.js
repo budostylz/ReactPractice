@@ -1,6 +1,6 @@
 import React from 'react'
 
-const GamesPlayed = (props) => 
+const GamesPlayed = () => 
 
 			(<div className="row mt-5">
                 <div className="col-sm">

@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
 class GameList extends Component {
   render(){
-    console.log('GameList', this.props)
+    //console.log('GameList', this.props)
+
     return(<div className="row"> 
             <div className="col-lg">
             	<table className="table mt-5">
@@ -13,11 +15,16 @@ class GameList extends Component {
                 		</tr>
               		</thead>
                     <tbody>
-                      <tr>
-                        <td>user1</td>
-                        <td>0</td>    
-                      </tr>
-                       
+           				
+           				{
+           					this.props.profiles.map(profile => 
+           							<tr key={profile.userId}>
+           								<td>{profile.userName}</td>
+           								<td>{profile.gamesPlayed}</td>
+           
+           							</tr>)
+  						}
+
                     </tbody>
 				</table>
             </div>
@@ -26,6 +33,11 @@ class GameList extends Component {
     
   }
   
+  
+}
+
+GameList.propTypes = {
+  profiles: PropTypes.array
   
 }
 

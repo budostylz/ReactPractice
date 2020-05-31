@@ -1,9 +1,12 @@
 import React from 'react'
 import AddUser from './AddUser'
 import ToggleButton from './ToggleButton'
+import PropTypes from 'prop-types'
+
 
 const ButtonContainer = props => 
 		(<div className="row">
+         {console.log('ButtonContainer props', props)}
                 <div className="col-sm">
                   <AddUser 
                       createProfile={props.createProfile}            
@@ -17,5 +20,10 @@ const ButtonContainer = props =>
 					/>
                 </div>
          </div>)
+
+ButtonContainer.propTypes = {
+  toggleState: PropTypes.boolean,
+  toggleView: PropTypes.func
+}
 
 export default ButtonContainer;

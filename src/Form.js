@@ -4,6 +4,8 @@ import ButtonContainer from './ButtonContainer'
 import GamesPlayed from './GamesPlayed'
 import GameList from './GameList'
 
+
+
 class Form extends Component{
   
   state = { 	
@@ -32,9 +34,7 @@ createProfile = () => {
   //validate
   let validateTextboxes = this.validateTextboxes(firstName, lastName, userName)
   let validateUserName = this.validateUserName(userName)
-  
-  console.log('validateTextboxes', validateTextboxes)
-  console.log('validateUserName', validateUserName)
+
   
   if(validateTextboxes && validateUserName){
     
@@ -59,11 +59,7 @@ createProfile = () => {
 }
 
 validateTextboxes = (firstName, lastName, userName) => { 
-
- 
   let checkTextBoxes = (firstName.trim().length > 0 && lastName.trim().length > 0 && userName.trim().length > 0)
-
-  
   
   if(checkTextBoxes){
       return true  
@@ -77,7 +73,6 @@ validateTextboxes = (firstName, lastName, userName) => {
 
 validateUserName = (userName) => {
 
-  
   if( this.state.profiles.length > 0){
 
     let checkUserName = this.state.profiles.filter(un => un.userName.toLowerCase() === userName.toLowerCase())
@@ -98,7 +93,7 @@ validateUserName = (userName) => {
 
 
 
-toggleView = () => {
+toggleViewFunc = () => {
   
     //observe state
   //this.setState(currentState => (console.log(currentState.toggleView)))
@@ -109,7 +104,6 @@ toggleView = () => {
   	toggleView: newToggleState
   
   }))
-  
 
   
 }
@@ -127,7 +121,7 @@ toggleView = () => {
               <Profile />
            	  <ButtonContainer 
            		createProfile={this.createProfile}
-				toggleView={this.toggleView}
+				toggleView={this.toggleViewFunc}
 				toggleState={this.state.toggleView}
 				/>
 				{(this.state.toggleView) 
@@ -142,5 +136,7 @@ toggleView = () => {
   
   
 }
+
+
 
 export default Form
