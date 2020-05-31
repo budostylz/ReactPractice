@@ -1,3 +1,3 @@
 ## ChatApp
 
-+ Dependencies: npm install --save prop-t
++ Dependencies: npm install --save prop-types
