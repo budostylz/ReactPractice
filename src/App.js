@@ -8,11 +8,7 @@ class Pure extends React.PureComponent {
       update: props.toggle,
     };
     
-	/*
-    	
-        I think PureComponent is performing a shallow equality check of setInterval within App component,
-        which might explain why pure component is not re-rendering.
-    */
+
     
     
   }
