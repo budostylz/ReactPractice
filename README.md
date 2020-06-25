@@ -4,3 +4,5 @@
 
 [Leveling Up with React: Redux](https://css-tricks.com/learning-react-redux/)
 
+[Reducers + Flux = Redux](https://www.youtube.com/watch?v=xsSnOQynTHs)
+
