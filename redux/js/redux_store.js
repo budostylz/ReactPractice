@@ -117,6 +117,7 @@ const checker = (store) => (next) => (action) => {
 
 }
 
+//Middleware(ES6)
 const logger = (store) => (next) => (action) => {
   console.group(action.type)
   console.log('The action: ', action)
