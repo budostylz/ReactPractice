@@ -75,17 +75,71 @@ function goals(state = [], action) {
 
 
 
+//Middleware(ES5)
+/*function checker(store) {
+  return function (next) {
+    return function (action) {
+      if (
+        action.type === ADD_TODO &&
+        action.todo.name.toLowerCase().includes('bitcoin')
+      ) {
+        return alert("Nope. That's a bad idea.")
+      }
+
+      if (
+        action.type === ADD_GOAL &&
+        action.goal.name.toLowerCase().includes('bitcoin')
+      ) {
+        return alert("Nope. That's a bad idea.")
+      }
+      return next(action)
+    }
+  }
+}*/
+
+
+//Middleware(ES6)
+const checker = (store) => (next) => (action) => {
+  if (
+    action.type === ADD_TODO &&
+    action.todo.name.toLowerCase().includes('bitcoin')
+  ) {
+    return alert("Nope. That's a bad idea.")
+  }
+
+  if (
+    action.type === ADD_GOAL &&
+    action.goal.name.toLowerCase().includes('bitcoin')
+  ) {
+    return alert("Nope. That's a bad idea.")
+  }
+  return next(action)
+
+}
+
+const logger = (store) => (next) => (action) => {
+  console.group(action.type)
+  console.log('The action: ', action)
+  const result = next(action)
+  console.log('The new state: ', store.getState())
+  console.groupEnd()
+  return result
+
+}
+
+
+
+
+
 //create store
 const store = Redux.createStore(Redux.combineReducers({
   todosState: todos,
   goalsState: goals
-}))
+}), Redux.applyMiddleware(checker, logger))
 
-console.log('store', store)
 
 //subscribe action listeners
 store.subscribe(() => {
-  console.log('The new state is: ', store.getState())
 
   //add to DOM
   const { goalsState, todosState } = store.getState()
