@@ -6,3 +6,8 @@
 
 [Reducers + Flux = Redux (Dan Abramov)](https://www.youtube.com/watch?v=xsSnOQynTHs)
 
+[Middleware](https://redux.js.org/advanced/middleware)
+
+[applyMiddleware(...middleware)](https://redux.js.org/api/applymiddleware)
+
+[Store enhancer](https://redux.js.org/glossary#store-enhancer)
