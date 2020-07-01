@@ -11,3 +11,5 @@
 [applyMiddleware(...middleware)](https://redux.js.org/api/applymiddleware)
 
 [Store enhancer](https://redux.js.org/glossary#store-enhancer)
+
+test
