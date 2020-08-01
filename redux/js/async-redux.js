@@ -57,6 +57,85 @@ function receiveDataAction(todos, goals) {
     }
 }
 
+function handleAddTodo(name, cb) {
+    return (dispatch) => {
+        return API.saveTodo(name)
+            .then((todo) => {
+                dispatch(addTodoAction(todo))
+                cb()
+            })
+            .catch(() => {
+                alert('There was an error. Try again.')
+            })
+
+
+    }
+}
+
+function handleDeleteTodo(todo) {
+
+    return (dispatch) => {
+
+        dispatch(removeTodoAction(todo.id))
+        return API.deleteTodo(todo.id)
+            //optimistic update
+            .catch(() => {
+                dispatch(addTodoAction(todo))
+                alert('An error occurred. Try again.')
+            })
+    }
+}
+
+function handleToggle(id) {
+    return (dispatch) => {
+        dispatch(toggleTodoAction(id))
+
+        //optimistic update
+        return API.saveTodoToggle(id)
+            .catch(() => {
+                dispatch(toggleTodoAction(id))
+                alert('An error occurred, Try again.')
+            })
+    }
+}
+
+function handleAddGoal(name, cb) {
+    return (dispatch) => {
+        return API.saveGoal(name)
+            .then((goal) => {
+                dispatch(addGoalAction(goal))
+                cb()
+            })
+            .catch(() => alert('There was an error. Try again.'))
+    }
+}
+
+function handleDeleteGoal(goal) {
+    return (dispatch) => {
+        dispatch(removeGoalAction(goal.id))
+
+        return API.deleteGoal(goal.id)
+            //optimistic update
+            .catch(() => {
+                dispatch(addGoalAction(goal))
+                alert('An error occurred. Try again.')
+            })
+    }
+}
+
+function handleInitialData() {
+    return (dispatch) => {
+        //fetch/load todos and goals from api
+        Promise.all([
+            API.fetchTodos(),
+            API.fetchGoals()
+        ]).then(([todos, goals]) => {
+            dispatch(receiveDataAction(todos, goals))
+        })
+    }
+}
+
+
 //reducers - pure functions
 function todos(state = [], action) {
     switch (action.type) {
@@ -115,13 +194,29 @@ const checker = (store) => (next) => (action) => {
     return next(action);
 }
 
+const logger = (store) => (next) => (action) => {
+    console.group(action.type)
+    console.log('The action: ', action)
+    const result = next(action)
+    console.log('The new state: ', store.getState())
+    console.groupEnd()
+    return result
+}
 
+//custom thunk middleware
+/*const thunk = (store) => (next) => (action) => {//add APIs to middleware thunk for seperation of concerns
+    if (typeof action === 'function') {
+        return action(store.dispatch)
+    }
+
+    return next(action)
+}*/
 
 const store = Redux.createStore(Redux.combineReducers({
     todos,
     goals,
     loading
-}), Redux.applyMiddleware(checker))
+}), Redux.applyMiddleware(/*thunk*/ReduxThunk.default, checker, logger))
 
 
 
