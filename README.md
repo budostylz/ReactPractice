@@ -1,3 +1,5 @@
+[Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
+
 [A Predictable State Container for JS Apps](https://redux.js.org/)
 
 [The what and why of Redux](https://blog.pusher.com/the-what-and-why-of-redux/)
@@ -12,4 +14,4 @@
 
 [Store enhancer](https://redux.js.org/glossary#store-enhancer)
 
-test
+[Redux Thunk](https://github.com/reduxjs/redux-thunk)
