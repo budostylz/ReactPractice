@@ -4,7 +4,7 @@ import ConnectedGoals from './Goals'
 import { connect } from 'react-redux'
 import {
   handleInitialData
-} from '.../actions/shared'
+} from '../actions/shared'
 
 
 class App extends React.Component {
