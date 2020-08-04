@@ -31,3 +31,6 @@
 [Understanding how redux-thunk works](https://medium.com/@gethylgeorge/understanding-how-redux-thunk-works-72de3bdebc50)
 
 [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+
+[Redux FAQ: Organizing State](https://redux.js.org/faq/organizing-state)
+
