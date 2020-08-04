@@ -34,3 +34,10 @@
 
 [Redux FAQ: Organizing State](https://redux.js.org/faq/organizing-state)
 
+[Scaling your Redux App with ducks](https://www.freecodecamp.org/news/author/alexnm/)
+
+[Normalizing State Shape](https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape)
+
+[Redux for state management in large web apps](https://blog.mapbox.com/redux-for-state-management-in-large-web-apps-c7f3fab3ce9b)
+
+[Five Tips for Working with Redux in Large Applications](https://medium.com/xandr-tech/five-tips-for-working-with-redux-in-large-applications-89452af4fdcb)
