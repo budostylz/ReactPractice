@@ -41,3 +41,5 @@
 [Redux for state management in large web apps](https://blog.mapbox.com/redux-for-state-management-in-large-web-apps-c7f3fab3ce9b)
 
 [Five Tips for Working with Redux in Large Applications](https://medium.com/xandr-tech/five-tips-for-working-with-redux-in-large-applications-89452af4fdcb)
+
+[normalizr](https://github.com/paularmstrong/normalizr)
