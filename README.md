@@ -34,7 +34,7 @@
 
 [Redux FAQ: Organizing State](https://redux.js.org/faq/organizing-state)
 
-[Scaling your Redux App with ducks](https://www.freecodecamp.org/news/author/alexnm/)
+[Scaling your Redux App with ducks](https://www.freecodecamp.org/news/scaling-your-redux-app-with-ducks-6115955638be/)
 
 [Normalizing State Shape](https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape)
 
