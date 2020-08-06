@@ -66,3 +66,6 @@
 
 ![Planning Stage: Step 3 - Determine Events In The App
 ](https://github.com/budostylz/ReactPractice/blob/Redux/images/Planning%20Stage%20Step%203%20-%20Determine%20Events%20In%20The%20App.png)
+
+![Planning Stage: Step 4 - Data and the Store
+](https://github.com/budostylz/ReactPractice/blob/Redux/images/Planning%20Stage%20Step%204%20-%20Data%20and%20the%20Store.png)
