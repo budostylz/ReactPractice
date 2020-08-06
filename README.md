@@ -50,6 +50,9 @@
 
 [What is the difference between Hot Reloading and Live Reloading in React Native?](https://stackoverflow.com/questions/41428954/what-is-the-difference-between-hot-reloading-and-live-reloading-in-react-native)
 
+
+[How to choose between Redux's store and React's state?](https://github.com/reactjs/redux/issues/1287)
+
 # Real-World App
 
 ## Project Repo
