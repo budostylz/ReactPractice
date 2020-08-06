@@ -61,3 +61,6 @@
 
 ![Planning Stage: Steps 1&2 - Break Down Views and Components
 ](https://github.com/budostylz/ReactPractice/blob/Redux/images/Planning%20Stage%20Steps%201and2%20-%20Break%20Down%20Views%20and%20Components.png)
+
+![Planning Stage: Step 3 - Determine Events In The App
+](https://github.com/budostylz/ReactPractice/blob/Redux/images/Planning%20Stage%20Step%203%20-%20Determine%20Events%20In%20The%20App.png)
