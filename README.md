@@ -48,6 +48,8 @@
 
 [20 EASY-TO-USE MOCKUP TOOLS TO DESIGN YOUR NEXT APP](https://codingsans.com/blog/mockup-tools)
 
+[What is the difference between Hot Reloading and Live Reloading in React Native?](https://stackoverflow.com/questions/41428954/what-is-the-difference-between-hot-reloading-and-live-reloading-in-react-native)
+
 # Real-World App
 
 ## Project Repo
