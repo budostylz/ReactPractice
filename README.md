@@ -45,3 +45,10 @@
 [normalizr](https://github.com/paularmstrong/normalizr)
 
 [reselect](https://github.com/reduxjs/reselect)
+
+## A Guide for the Planning Stages of Your Project
+1. Identify What Each View Should Look Like
+2. Break Each View Into a Hierarchy of Components
+3. Determine What Events Happen in the App
+4. Determine What Data Lives in the Store
+
