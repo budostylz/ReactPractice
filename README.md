@@ -50,8 +50,19 @@
 
 [What is the difference between Hot Reloading and Live Reloading in React Native?](https://stackoverflow.com/questions/41428954/what-is-the-difference-between-hot-reloading-and-live-reloading-in-react-native)
 
-
 [How to choose between Redux's store and React's state?](https://github.com/reactjs/redux/issues/1287)
+
+[Accessing Redux state in an action creator?](https://stackoverflow.com/questions/35667249/accessing-redux-state-in-an-action-creator/35674575#35674575)
+
+[Redux Essentials, Part 1: Redux Overview and Concepts](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
+
+[Redux FAQ: Immutable Data](https://redux.js.org/faq/immutable-data#redux-shallow-checking-requires-immutability)
+
+[Initializing State](https://redux.js.org/recipes/structuring-reducers/initializing-state)
+
+[React Redux](https://react-redux.js.org/)
+
+[React Redux API](https://react-redux.js.org/api)
 
 # Real-World App
 
@@ -72,3 +83,4 @@
 
 ![Planning Stage: Step 4 - Data and the Store
 ](https://github.com/budostylz/ReactPractice/blob/Redux/images/Planning%20Stage%20Step%204%20-%20Data%20and%20the%20Store.png)
+
