@@ -62,7 +62,13 @@
 
 [React Redux](https://react-redux.js.org/)
 
-[React Redux API](https://react-redux.js.org/api)
+[React Redux API](https://redux.js.org/api/api-reference)
+
+[Immutable Update Patterns](https://redux.js.org/recipes/structuring-reducers/immutable-update-patterns)
+
+[Reducers](https://redux.js.org/basics/reducers#designing-the-state-shape)
+
+[The Perils of Using a Common Redux Anti-Pattern](https://itnext.io/the-perils-of-using-a-common-redux-anti-pattern-344d778e59da)
 
 # Real-World App
 
