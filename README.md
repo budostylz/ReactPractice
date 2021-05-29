@@ -5,3 +5,5 @@
 [Compose me That: Function Composition in JavaScript](https://www.linkedin.com/pulse/compose-me-function-composition-javascript-kevin-greene)
 
 [Code Sandbox](https://codesandbox.io/s/new)
+
+[Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
