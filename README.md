@@ -7,3 +7,5 @@
 [Code Sandbox](https://codesandbox.io/s/new)
 
 [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
+
+[Getting Started](https://reactjs.org/docs/getting-started.html)
