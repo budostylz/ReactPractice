@@ -14,6 +14,8 @@
 
 [Functional Components vs. Stateless Functional Components vs. Stateless Components](https://ui.dev/functional-components-vs-stateless-functional-components-vs-stateless-components/)
 
+------------------------------------------
+
 ## Node Version Manager
 [NVM - Node Version Manager](https://github.com/nvm-sh/nvm)
 
