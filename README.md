@@ -24,6 +24,12 @@
 
 [Typechecking With PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
 
+[Forms](https://reactjs.org/docs/forms.html#controlled-components)
+
+[Avoiding React setState() Pitfalls](https://duncanleung.com/avoiding-react-setstate-pitfalls/)
+
+[How to NOT React: Common Anti-Patterns and Gotchas in React](https://codeburst.io/how-to-not-react-common-anti-patterns-and-gotchas-in-react-40141fe0dcd)
+
 ## Node Version Manager
 [NVM - Node Version Manager](https://github.com/nvm-sh/nvm)
 
