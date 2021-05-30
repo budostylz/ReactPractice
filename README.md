@@ -22,3 +22,6 @@
 
 ## Animations 
 [Animations](https://blog.logrocket.com/the-top-6-animation-libraries-in-react-native/)
+
+## APIs and References
+[React.Component](https://reactjs.org/docs/react-component.html)
