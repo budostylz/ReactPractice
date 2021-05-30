@@ -11,3 +11,9 @@
 [Getting Started](https://reactjs.org/docs/getting-started.html)
 
 [NVM - Node Version Manager](https://github.com/nvm-sh/nvm)
+
+## Builds
+[Diawi](https://www.diawi.com/)
+
+## Animations 
+[Animations](https://blog.logrocket.com/the-top-6-animation-libraries-in-react-native/)
