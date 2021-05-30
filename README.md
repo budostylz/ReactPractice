@@ -20,6 +20,10 @@
 
 [React.Component](https://reactjs.org/docs/react-component.html)
 
+[prop-types ](https://www.npmjs.com/package/prop-types)
+
+[Typechecking With PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
+
 ## Node Version Manager
 [NVM - Node Version Manager](https://github.com/nvm-sh/nvm)
 
