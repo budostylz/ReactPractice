@@ -16,6 +16,10 @@
 
 ------------------------------------------
 
+[State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
+
+[React.Component](https://reactjs.org/docs/react-component.html)
+
 ## Node Version Manager
 [NVM - Node Version Manager](https://github.com/nvm-sh/nvm)
 
