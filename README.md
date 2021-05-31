@@ -32,7 +32,25 @@
 
 [How to NOT React: Common Anti-Patterns and Gotchas in React](https://codeburst.io/how-to-not-react-common-anti-patterns-and-gotchas-in-react-40141fe0dcd)
 
+[form-serialize](https://www.npmjs.com/package/form-serialize)
+
+[Build your own React Router](https://ui.dev/build-your-own-react-router/)
+
+[React Router Philosophy](https://reactrouter.com/web/guides/philosophy)
+
+[Nested routes with React Router v4](https://ui.dev/react-router-v4-nested-routes/)
+
+
+
 ------------------------------------------
+
+[history](https://github.com/ReactTraining/history)
+
+[<Link/>](https://reactrouter.com/web/api/Link)
+
+[Link.js](https://github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/modules/Link.js)
+
+
 
 
 ## Node Version Manager
