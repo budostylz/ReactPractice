@@ -20,6 +20,8 @@
 
 [React.Component](https://reactjs.org/docs/react-component.html)
 
+[React Lifecycle Diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+
 [prop-types ](https://www.npmjs.com/package/prop-types)
 
 [Typechecking With PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
@@ -29,6 +31,7 @@
 [Avoiding React setState() Pitfalls](https://duncanleung.com/avoiding-react-setstate-pitfalls/)
 
 [How to NOT React: Common Anti-Patterns and Gotchas in React](https://codeburst.io/how-to-not-react-common-anti-patterns-and-gotchas-in-react-40141fe0dcd)
+
 
 ## Node Version Manager
 [NVM - Node Version Manager](https://github.com/nvm-sh/nvm)
