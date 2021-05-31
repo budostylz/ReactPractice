@@ -1,4 +1,4 @@
-## React Reads
+## React Fundamentals Reads
 
 [Curry me This: Partial Application in JavaScript](https://www.linkedin.com/pulse/curry-me-partial-application-javascript-kevin-greene)
 
