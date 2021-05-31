@@ -46,8 +46,15 @@
 
 [Link.js](https://github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/modules/Link.js)
 
+[React Docs](https://reactjs.org/docs/hello-world.html)
 
+[You’re Missing the Point of React](https://medium.com/@dan_abramov/youre-missing-the-point-of-react-a20e34a51e1a)
 
+[React 'Aha' Moments](https://ui.dev/react-aha-moments/)
+
+[9 things every React.js beginner should know](https://camjackson.net/post/9-things-every-reactjs-beginner-should-know)
+
+[React Elements vs React Components](https://ui.dev/react-elements-vs-react-components/)
 
 ## Node Version Manager
 [NVM - Node Version Manager](https://github.com/nvm-sh/nvm)
