@@ -40,10 +40,6 @@
 
 [Nested routes with React Router v4](https://ui.dev/react-router-v4-nested-routes/)
 
-
-
-------------------------------------------
-
 [history](https://github.com/ReactTraining/history)
 
 [<Link/>](https://reactrouter.com/web/api/Link)
