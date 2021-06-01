@@ -56,7 +56,16 @@
 
 [React Elements vs React Components](https://ui.dev/react-elements-vs-react-components/)
 
+[Error Boundaries](https://reactjs.org/docs/error-boundaries.html)
+
+[reactjs react-codemod](https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles)
+
+[Update on Async Rendering](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html)
+
 ------------------------------------------
+
+## Getting Started with React Redux
+[Getting Started with React Redux](https://react-redux.js.org/introduction/getting-started#help-and-discussion)
 
 ## Node Version Manager
 [NVM - Node Version Manager](https://github.com/nvm-sh/nvm)
