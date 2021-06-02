@@ -66,6 +66,8 @@
 
 ## React-Redux Reads
 
+[Pure Function](https://en.wikipedia.org/wiki/Pure_function)
+
 ------------------------------------------
 
 ## Getting Started with React Redux
