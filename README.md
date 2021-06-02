@@ -108,7 +108,7 @@
 
 [Redux for state management in large web apps](https://blog.mapbox.com/redux-for-state-management-in-large-web-apps-c7f3fab3ce9b?gi=c649dd16a31a)
 
-[https://medium.com/xandr-tech/five-tips-for-working-with-redux-in-large-applications-89452af4fdcb](https://medium.com/xandr-tech/five-tips-for-working-with-redux-in-large-applications-89452af4fdcb)
+[Five Tips for Working with Redux in Large Applications](https://medium.com/xandr-tech/five-tips-for-working-with-redux-in-large-applications-89452af4fdcb)
 
 [The Perils of Using a Common Redux Anti-Pattern](https://itnext.io/the-perils-of-using-a-common-redux-anti-pattern-344d778e59da?gi=9649f3ded370)
 
