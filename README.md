@@ -84,7 +84,7 @@
 
 [Thunk](https://github.com/reduxjs/redux-thunk)
 
-[Redux Fundamentals](Redux Fundamentals, Part 1: Redux Overview)
+[Redux Fundamentals](https://redux.js.org/tutorials/index)
 
 [Writing Async Code Inline](https://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559#35415559)
 
