@@ -125,11 +125,18 @@
 
 ## React Native Reads
 
+[React Native Docs](https://reactnative.dev/docs/getting-started)
+
 [Bridging in React Native](https://tadeuzagallo.com/blog/react-native-bridge/)
 
 [Material Design](https://material.io/design/foundation-overview)
 
 [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/)
+
+[vector-icons](https://icons.expo.fyi/)
+
+[glamorous-native](https://github.com/robinpowered/glamorous-native)
+
 
 
 
