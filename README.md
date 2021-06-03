@@ -123,6 +123,16 @@
 
 ------------------------------------------
 
+## React Native Reads
+
+[Bridging in React Native](https://tadeuzagallo.com/blog/react-native-bridge/)
+
+[Material Design](https://material.io/design/foundation-overview)
+
+[Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/)
+
+
+
 ## Getting Started with React Redux
 [Getting Started with React Redux](https://react-redux.js.org/introduction/getting-started#help-and-discussion)
 
