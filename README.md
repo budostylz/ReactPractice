@@ -157,6 +157,8 @@
 
 [Building Standalone Apps](https://docs.expo.io/distribution/building-standalone-apps/?redirected)
 
+[11 mistakes I’ve made during React Native / Redux app development](https://medium.com/dailyjs/11-mistakes-ive-made-during-react-native-redux-app-development-8544e2be9a9)
+
 
 ## Getting Started with React Redux
 [Getting Started with React Redux](https://react-redux.js.org/introduction/getting-started#help-and-discussion)
