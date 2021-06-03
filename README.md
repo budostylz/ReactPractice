@@ -14,6 +14,8 @@
 
 [Functional Components vs. Stateless Functional Components vs. Stateless Components](https://ui.dev/functional-components-vs-stateless-functional-components-vs-stateless-components/)
 
+[11 mistakes I’ve made during React Native / Redux app development](https://medium.com/dailyjs/11-mistakes-ive-made-during-react-native-redux-app-development-8544e2be9a9)
+
 ------------------------------------------
 
 [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
