@@ -139,6 +139,18 @@
 
 [styled-components](https://github.com/styled-components/styled-components)
 
+[Visual primitives for the component age](https://styled-components.com/)
+
+[React Navigation](https://v1.reactnavigation.org/docs/api-reference.html)
+
+[Stack Navigation in React Native](https://medium.com/@swathylenjini/stack-navigation-in-react-native-2cd00374ff3a)
+
+[createStackNavigator](https://reactnavigation.org/docs/stack-navigator/)
+
+
+
+
+
 
 
 
