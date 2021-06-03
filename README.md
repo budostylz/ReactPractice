@@ -147,11 +147,13 @@
 
 [createStackNavigator](https://reactnavigation.org/docs/stack-navigator/)
 
+[Expo](https://docs.expo.io/)
 
+[Upload Build for App - iOS](https://developer.apple.com/support/app-store-connect/#//apple_ref/doc/uid/TP40011225-CH38-SW1)
 
+[Create and set up your app - Android](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en&visit_id=637583249419372913-1010415681&rd=1)
 
-
-
+[Building Standalone Apps](https://docs.expo.io/distribution/building-standalone-apps/?redirected)
 
 
 ## Getting Started with React Redux
