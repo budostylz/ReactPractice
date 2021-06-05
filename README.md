@@ -64,6 +64,7 @@
 
 [Update on Async Rendering](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html)
 
+
 ------------------------------------------
 
 ## React-Redux Reads
@@ -115,6 +116,8 @@
 [The Perils of Using a Common Redux Anti-Pattern](https://itnext.io/the-perils-of-using-a-common-redux-anti-pattern-344d778e59da?gi=9649f3ded370)
 
 [react-redux-links](https://github.com/markerikson/react-redux-links)
+
+[Guide: Testing Redux Connected Components with React Testing Library and Jest](https://slawkolodziej.com/posts/guide-testing-redux-connected-components-with-react-testing-library-and-jest)
 
 ## React-Redux Complement Tools & APIs
 [Immutable- immutable objects](https://immutable-js.github.io/immutable-js/)
