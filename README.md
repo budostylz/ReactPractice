@@ -119,6 +119,8 @@
 
 [Guide: Testing Redux Connected Components with React Testing Library and Jest](https://slawkolodziej.com/posts/guide-testing-redux-connected-components-with-react-testing-library-and-jest)
 
+[mapStateToProps](https://react-redux.js.org/using-react-redux/connect-mapstate)
+
 ## React-Redux Complement Tools & APIs
 [Immutable- immutable objects](https://immutable-js.github.io/immutable-js/)
 
