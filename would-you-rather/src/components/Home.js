@@ -4,7 +4,7 @@ import AnsweredQuestion from './AnsweredQuestion'
 
 function Home() {
     return (
-        <div>
+        <div className="pt-5">
             <ul className="nav nav-tabs">
                 <li className="nav-item">
                     <a className="nav-link active" aria-current="page" href="#">Unanswered Questions</a>

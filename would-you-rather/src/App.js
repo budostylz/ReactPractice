@@ -4,6 +4,8 @@ import Nav from './components/Nav';
 import NewQuestion from './components/NewQuestion'
 import LeaderBoard from './components/LeaderBoard'
 import Home from './components/Home'
+import Results from './components/Results'
+
 
 
 
@@ -15,7 +17,7 @@ function App() {
         <div className="col">Hello Shaun</div>
         <div className="col"><a href="#">Logout</a></div>
         <div className="col"></div>
-        <div className="col-7"><Home /></div>
+        <div className="col-7"><Results /></div>
         <div className="col"></div>
       </div>
     </div>

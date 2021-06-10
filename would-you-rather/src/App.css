@@ -40,3 +40,7 @@
 .colorMe {
   background-color: beige;
 }
+
+.progress-bar{
+  width: 25%
+}
