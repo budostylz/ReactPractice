@@ -166,6 +166,9 @@
 
 [React Native Directory](https://reactnative.directory/)
 
+## React Hooks
+[React Hooks](https://reactjs.org/docs/hooks-intro.html)
+
 
 ## Getting Started with React Redux
 [Getting Started with React Redux](https://react-redux.js.org/introduction/getting-started#help-and-discussion)
