@@ -169,6 +169,12 @@
 ## React Hooks
 [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 
+[React Native Animated with Hooks](https://blog.codecentric.de/en/2019/07/react-native-animated-with-hooks/)
+
+[useNavigation](https://reactnavigation.org/docs/use-navigation/)
+
+
+
 
 ## Getting Started with React Redux
 [Getting Started with React Redux](https://react-redux.js.org/introduction/getting-started#help-and-discussion)
