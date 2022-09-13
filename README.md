@@ -1,5 +1,7 @@
 ## React Fundamentals Reads
 
+[45 Best React Projects for Beginners in Easy to Hard Order](https://contactmentor.com/best-react-projects-for-beginners-easy/)
+
 [Getting Started - React Docs](https://reactjs.org/docs/getting-started.html)
 
 [Curry me This: Partial Application in JavaScript](https://www.linkedin.com/pulse/curry-me-partial-application-javascript-kevin-greene)
