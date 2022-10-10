@@ -214,3 +214,6 @@
 
 ## Flow
 [Types First](https://flow.org/en/docs/lang/types-first/)
+
+## GraphQL Tutorial - Full Guide To Making Queries (2018)
+[GraphQL Tutorial - Full Guide To Making Queries (2018)](https://www.youtube.com/watch?v=omSpI1Nu_pg)
