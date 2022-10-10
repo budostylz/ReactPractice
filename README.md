@@ -217,3 +217,6 @@
 
 ## GraphQL Tutorial - Full Guide To Making Queries (2018)
 [GraphQL Tutorial - Full Guide To Making Queries (2018)](https://www.youtube.com/watch?v=omSpI1Nu_pg)
+
+## GraphQL Queries - Fetching data
+[GraphQL Queries - Fetching data](https://hasura.io/learn/graphql/intro-graphql/graphql-queries/)
